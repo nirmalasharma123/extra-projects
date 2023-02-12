@@ -1,0 +1,24 @@
+{
+  "name": "sheduler-cronjob",
+  "version": "1.0.0",
+  "description": "setting time for execution of function using cron jobs in node js.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sandyvaranasi/sheduler-cronjob.git"
+  },
+  "author": "Sandeep Tripathi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sandyvaranasi/sheduler-cronjob/issues"
+  },
+  "homepage": "https://github.com/Sandyvaranasi/sheduler-cronjob#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-cron": "^3.0.2",
+    "nodemon": "^2.0.20"
+  }
+}
